@@ -78,7 +78,6 @@ echo 1 > /sys/devices/platform/sony-laptop/kbd_backlight
 ```
 
 #### Optimize font rendering
-===============================================================================
 ```
 sudo apt-get install fonts-liberation fonts-noto
 ```
