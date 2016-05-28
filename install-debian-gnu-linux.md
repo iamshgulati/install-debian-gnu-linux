@@ -64,7 +64,7 @@ sudo nano /etc/rc.local
 ```
 # Disable stray GPE ACPI interrupts hogging the CPU
 echo disable > /sys/firmware/acpi/interrupts/gpe13
-
+```
 
 #### Fix the keyboard backlight bug
 
