@@ -26,10 +26,7 @@ https://www.debian.org/distrib/
 
 ###### Create a bootable USB installation device for Debian
 ```
-sudo dd bs=4M if= of= status=progress && sync
-
-if= path to iso file, for example: if=~/Downloads/debian.iso
-of= mount point of usb media, for example: of=/dev/sdc
+sudo dd bs=4M if=/path/to/debian.iso of=/dev/sdx status=progress && sync
 ```
 
 ## Boot the installation medium
